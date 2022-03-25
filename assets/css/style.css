@@ -100,29 +100,63 @@
        font-size: 16px;
    }
    /* Hero style ends */
-
+   
+   /* style the heading for "what we do" ," "what you do" and "Meet your Trainers" */
+   .section-title {
+       font-size: 55px;
+       color: #024e76;
+       margin-bottom: 35px;
+       padding: 0 100px 20px 100px;
+       border-bottom: 3px solid;
+   }
+   .primary-border {
+       border-color: #fce138;
+   }
+   .secondary-border {
+       border-color: #39a6b2;
+   }
    /* Style "What we do" section */
    .intro {
        text-align: center;
    }
-   /* style "what we do" paragraph */
-   .intro p {
-       line-height: 1.7;
-       color: #39a6b2;
-       width: 80%;
-       font-size: 20px;
-       margin: 0 auto;
-   }
-   .intro h2 {
-       /* add this alongside your other declarations */
-       display: inline-block;
-       font-size: 55px;  
-       color: #024e76;
-       margin-bottom: 35px;
-       padding: 0 100px 20px 100px;
-       border-bottom: solid 3px #fce138;
+    /* style "what we do" paragraph */
+    .intro p {
+        line-height: 1.7;
+        color: #39a6b2;
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    /* style what you do section */
+    .steps {
+        text-align: center;
+        background-color: #fce138;
+    }
+    /* spacing out */
+     .steps div {
+         margin-bottom: 80px;
+    }
+     /* resize image */
+     .steps img {
+         width: 15%;
+    }
+    /* style the steps */
+    .steps h3 {
+        color: #024e76;
+        font-size: 46px;
+        margin-top: 10px;
+    }
+    .steps span {
+        font-size: 38px;
+    }
+   /*style what you do para */
+   .steps p {
+        color: #39a6b2;
+        font-size: 23px;
    }
 
+   /* style the footer */
     footer {
         background: #fce138;
         width: 100%;
