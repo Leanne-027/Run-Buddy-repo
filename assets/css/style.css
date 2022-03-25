@@ -101,6 +101,20 @@
    }
    /* Hero style ends */
 
+   /* Style "What we do" section */
+   #what-we-do {
+       text-align: center;
+       margin: 0;
+       padding: 40px;
+   }
+   #what-we-do h2 {
+       color: #024e76;
+       font-size: xx-large;
+       padding-bottom: 10px;
+       border-bottom: solid 3px #fce138;
+       margin-bottom: 10px;
+   }
+
     footer {
         background: #fce138;
         width: 100%;
