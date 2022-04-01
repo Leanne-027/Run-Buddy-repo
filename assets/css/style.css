@@ -194,11 +194,40 @@
     }
    .text-left {
        text-align: left;
-   }
+    }
    .text-right {
        text-align: right;
-   }
+    }
 
+   /* style the reach out section */
+   .contact {
+       background-color: #024e76;
+       text-align: center;
+    }
+   /* style heading in contact section */
+   .contact h2 {
+       color: #fce138;
+       font-size: 55px;
+       margin-bottom: 35px;
+       padding: 0 100px 20px 100px;
+       border-bottom: 3px solid;
+       border-color: #39a6b2;
+       display: inline-block;
+    }
+    /*style the <iframe>*/
+    .contact-info iframe {
+        width: 400px;
+        height: 400px;
+    }
+    /* Design a two-column layout */
+    .contact-info div {
+        width: 410px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        margin: 30px 0 0 60 px;
+        color: white;
+    }
    /* style the footer */
     footer {
         background: #fce138;
