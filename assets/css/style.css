@@ -198,8 +198,7 @@
    .text-right {
        text-align: right;
     }
-
-   /* style the reach out section */
+   /* Reach out style start */
    .contact {
        background-color: #024e76;
        text-align: center;
@@ -207,12 +206,6 @@
    /* style heading in contact section */
    .contact h2 {
        color: #fce138;
-       font-size: 55px;
-       margin-bottom: 35px;
-       padding: 0 100px 20px 100px;
-       border-bottom: 3px solid;
-       border-color: #39a6b2;
-       display: inline-block;
     }
     /*style the <iframe>*/
     .contact-info iframe {
@@ -225,9 +218,26 @@
         display: inline-block;
         vertical-align: top;
         text-align: left;
-        margin: 30px 0 0 60 px;
+        margin: 30px 0 0 60px;
         color: white;
     }
+    /*Style the h3 */
+    .contact h3 {
+        color: #fce138;
+        font-size: 32px;
+    }
+    /*Style the <p> and <address> in contact */
+    .contact-info p, .contact-info address {
+        margin: 20px 0;
+        line-height: 1.5;
+        font-size: 20px;
+        font-style: normal;
+    }
+    .contact-info a {
+        color: #fce138;
+    }
+    /*Reach Out styles end */
+
    /* style the footer */
     footer {
         background: #fce138;
