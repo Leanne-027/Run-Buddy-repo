@@ -11,4 +11,4 @@ A website that offers fitness training services.
 https://leanne-027.github.io/Run-Buddy-repo/
 
 ## Contribution
-Made with ❤ by Leanne
+Made with ❤ by LeAnn
